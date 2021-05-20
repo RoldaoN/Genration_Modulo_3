@@ -1,0 +1,16 @@
+/*Estilos da pagina index.html*/
+.center{
+    text-align: center;
+}
+.container{
+    display:flex ;
+    /*mescla texto com a imagem*/
+    flex-flow: row ;
+    /*juntos na mesma linha, se quiser colocar em linhas diferentestem que add "wrap"*/
+    justify-content: right;
+    /*Joga o ultimo atributo para o lado escrito, nesse caso right*/
+    align-items: center;
+    /*Alinha todos os itens*/
+}
+
+/*Estilos da pagina contatos.html*/
