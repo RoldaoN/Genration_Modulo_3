@@ -1,16 +1,53 @@
-/*Estilos da pagina index.html*/
+/*Estilos gerais*/
 .center{
     text-align: center;
+}
+.justify{
+    text-align: justify;
 }
 .container{
     display:flex ;
     /*mescla texto com a imagem*/
     flex-flow: row ;
     /*juntos na mesma linha, se quiser colocar em linhas diferentestem que add "wrap"*/
-    justify-content: right;
+    justify-content: center;
     /*Joga o ultimo atributo para o lado escrito, nesse caso right*/
     align-items: center;
     /*Alinha todos os itens*/
 }
+#menu li {
+    display: inline;
+    padding: 10px;
+    /*Padding = Distânciamento entre objetos*/
+}
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#menu li a:hover{
+    color: red;
+    /*:hover = muda a cor quando passamos o mouse em cima*/
+}
+#livros li{
+    list-style: upper-alpha;
+}
+.p-30{
+    padding: 30px;
+}
+.br-50{
+    border-radius: 50%;
+    /*Modifica a borda da imagem, neste caso "%" deixa a imagem redonda*/
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+body{
+    background-color: silver;
+}
 
-/*Estilos da pagina contatos.html*/

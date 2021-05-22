@@ -8,12 +8,18 @@
 .center{
     text-align: center;
 }
+.menu li{
+    display: inline;
+}
 
 /*Estilos da pagina musicas*/
 .container{
     display:flex ;
-    /*mescla texto com a imagem*/
-    flex-wrap: wrap;
-    align-content: space-between;
+    display: flex;
+    flex-direction: column;
   
+}
+.container2{
+    display: flex;
+    flex-direction: row;
 }
