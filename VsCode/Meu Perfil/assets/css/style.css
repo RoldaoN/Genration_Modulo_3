@@ -10,7 +10,7 @@
     /*mescla texto com a imagem*/
     flex-flow: row ;
     /*juntos na mesma linha, se quiser colocar em linhas diferentestem que add "wrap"*/
-    justify-content: center;
+    justify-content: space-around;
     /*Joga o ultimo atributo para o lado escrito, nesse caso right*/
     align-items: center;
     /*Alinha todos os itens*/

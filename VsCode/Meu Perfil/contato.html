@@ -15,20 +15,26 @@
          <li>
             <a href="contato.html"> Contato</a>
         </li>
+        <li>
+            <a href="familiaAmigos.html"> Familia</a>
+        </li>
     </ul>
     <h1>Entre em contato comigo!</h1>
     <form>
         <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-<br>
+        <input type="text" id="nome" onkeyup = "validaNome()">
+        <div id="txtNome"></div>
+
 <br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email">
-<br>
+        <input type="email" id="email" onkeyup = "validaEmail()">
+        <div id="txtEmail"></div>
+
 <br>
         <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-<br>
+        <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()"></textarea>
+        <div id="txtAssunto"></div>
+
 <br>
         <button>Enviar</button>
     </form>
@@ -42,5 +48,7 @@
       </div>
         <p>Todos os direitos reservados: Nohan Roldão &copy;</p>
     </footer>
+
+    <script src="assets/javaScript/script.js"></script>
 </body>
 </html>
